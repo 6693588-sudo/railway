@@ -10,7 +10,7 @@
       "settings": {
         "clients": [
           {
-            "id": "e83344e8-469b-46cb-8cf0-34a0705cf001"
+            "id": "809a3434-de69-4790-a7b9-39e84c007f48"
           }
         ],
         "decryption": "none"
@@ -20,7 +20,7 @@
         "xhttpSettings": {
           "mode": "auto",
           "host": "",
-          "path": "/xhttp-vless"
+          "path": "/xh"
         }
       }
     }
