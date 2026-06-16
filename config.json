@@ -10,7 +10,7 @@
       "settings": {
         "clients": [
           {
-            "id": "e83344e8-469b-46cb-8cf0-34a0705cf001" 
+            "id": "e83344e8-469b-46cb-8cf0-34a0705cf001"
           }
         ],
         "decryption": "none"
@@ -18,9 +18,9 @@
       "streamSettings": {
         "network": "xhttp",
         "xhttpSettings": {
-          "mode": "packet-up",
-          "host": "yourdomain.com",
-          "path": "/mypath"
+          "mode": "auto",
+          "host": "",
+          "path": "/xhttp-vless"
         }
       }
     }
