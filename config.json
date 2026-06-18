@@ -4,8 +4,8 @@
   },
   "inbounds": [
     {
-      "port": 8080,
-      "listen": "::",
+      "port": 10005,
+      "listen": "127.0.0.1",
       "protocol": "vless",
       "settings": {
         "clients": [
@@ -21,6 +21,25 @@
           "mode": "auto",
           "host": "",
           "path": "/xh"
+        }
+      }
+    },
+    {
+      "port": 10006,
+      "listen": "127.0.0.1",
+      "protocol": "vless",
+      "settings": {
+        "clients": [
+          {
+            "id": "809a3434-de69-4790-a7b9-39e84c007f48"
+          }
+        ],
+        "decryption": "none"
+      },
+      "streamSettings": {
+        "network": "grpc",
+        "grpcSettings": {
+          "serviceName": "grpc-vless"
         }
       }
     }
